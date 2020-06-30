@@ -13,6 +13,8 @@
 		B25BDF8524A8F264008F999C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B25BDF8324A8F264008F999C /* Main.storyboard */; };
 		B25BDF8724A8F267008F999C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B25BDF8624A8F267008F999C /* Assets.xcassets */; };
 		B25BDF8A24A8F267008F999C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B25BDF8824A8F267008F999C /* LaunchScreen.storyboard */; };
+		B25BDF9224A8F43C008F999C /* BreakingBad.swift in Sources */ = {isa = PBXBuildFile; fileRef = B25BDF9124A8F43C008F999C /* BreakingBad.swift */; };
+		B2B9EA3D24A97D6C008E7908 /* BBViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B9EA3C24A97D6C008E7908 /* BBViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		B25BDF8624A8F267008F999C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B25BDF8924A8F267008F999C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B25BDF8B24A8F267008F999C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B25BDF9124A8F43C008F999C /* BreakingBad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreakingBad.swift; sourceTree = "<group>"; };
+		B2B9EA3C24A97D6C008E7908 /* BBViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BBViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				B25BDF8624A8F267008F999C /* Assets.xcassets */,
 				B25BDF8824A8F267008F999C /* LaunchScreen.storyboard */,
 				B25BDF8B24A8F267008F999C /* Info.plist */,
+				B25BDF9124A8F43C008F999C /* BreakingBad.swift */,
+				B2B9EA3C24A97D6C008E7908 /* BBViewController.swift */,
 			);
 			path = Breaking_bad;
 			sourceTree = "<group>";
@@ -140,7 +146,9 @@
 			files = (
 				B25BDF8224A8F264008F999C /* ViewController.swift in Sources */,
 				B25BDF7E24A8F264008F999C /* AppDelegate.swift in Sources */,
+				B25BDF9224A8F43C008F999C /* BreakingBad.swift in Sources */,
 				B25BDF8024A8F264008F999C /* SceneDelegate.swift in Sources */,
+				B2B9EA3D24A97D6C008E7908 /* BBViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
